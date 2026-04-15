@@ -1,0 +1,29 @@
+name: billify
+description: "Invoice Generator & Maker App - Create, manage, and export professional invoices."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  get: ^4.7.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  pdf: ^3.11.2
+  printing: ^5.13.4
+  path_provider: ^2.1.5
+  intl: ^0.20.2
+  uuid: ^4.5.1
+  share_plus: ^10.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
